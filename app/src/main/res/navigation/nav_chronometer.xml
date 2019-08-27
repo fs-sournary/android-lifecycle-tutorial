@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chronometer_dest"
+    app:startDestination="@id/chronometer"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/chronometer"
+        android:name="com.sournary.androidlifecycletutorial.ui.chronometer.ChronometerFragment"
+        tools:layout="@layout/fragment_chronometer"
+        android:label="Chronometer" />
+</navigation>

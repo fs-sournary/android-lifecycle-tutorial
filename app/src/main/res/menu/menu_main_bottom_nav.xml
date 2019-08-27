@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/chronometer_dest"
+        android:icon="@drawable/ic_chronometer"
+        android:title="@string/main_activity_chronometer" />
+
+    <item
+        android:id="@+id/timer_dest"
+        android:icon="@drawable/ic_timer_black_24dp"
+        android:title="@string/main_activity_timer" />
+
+    <item
+        android:id="@+id/lifecycle_dest"
+        android:icon="@drawable/ic_lifecycle_black_24dp"
+        android:title="@string/main_activity_lifecycle" />
+
+    <item
+        android:id="@+id/saved_viewmodel_dest"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:title="@string/main_activity_saved_viewmodel" />
+</menu>

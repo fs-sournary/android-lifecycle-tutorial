@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/timer_dest"
+    app:startDestination="@id/timer"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/timer"
+        android:name="com.sournary.androidlifecycletutorial.ui.timer.TimerFragment"
+        android:label="Timer"
+        tools:layout="@layout/fragment_timer" />
+</navigation>

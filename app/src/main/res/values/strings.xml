@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AndroidLifecycleTutorial</string>
+
+    <!-- Main Activity -->
+    <string name="lifecycle_timer_format">%d elapsed time</string>
+    <string name="main_activity_chronometer">Chronometer</string>
+    <string name="main_activity_timer">Timer</string>
+    <string name="main_activity_lifecycle">Lifecycle</string>
+    <string name="main_activity_saved_viewmodel">Saved VM</string>
+
+    <!-- Chronometer -->
+    <string name="chronometer_start">Start</string>
+    <string name="chronometer_stop">Stop</string>
+
+    <!-- saved viewmodel -->
+    <string name="saved_viewmodel_name">Name…</string>
+    <string name="saved_viewmodel_apply">Apply</string>
+</resources>
